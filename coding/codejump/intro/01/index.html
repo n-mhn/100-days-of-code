@@ -16,13 +16,17 @@
             <header class="header hp_w-full hp_flex hp_justify-center">
                 <div class="hp_h-full header-wrapper hp_mx-auto hp_w-lg hp_flex hp_justfy-between hp_mx-70">
                     <div class="logo hp_pl-70 hp_flex hp_justify-center hp_flex-column">
-                        <h1 class="">Profile</h1>
+                        <h1 class="hp_flex hp_justify-center hp_flex-column">
+                            <a>
+                                <img src="src/img/logo.svg" alt="">
+                            </a>
+                        </h1>
                     </div>
                     <div class="nav-wrapper hp_pr-70">
                         <nav class="nav">
                             <ul class="nav-ul hp_flex">
-                                <li class="nav-li">About</li>
-                                <li class="nav-li">Bicycle</li>
+                                <li class="nav-li hp_flex-centering"><span>About</span></li>
+                                <li class="nav-li hp_ml-30 hp_flex-centering"><span>Bicycle</span></li>
                             </ul>
                         </nav>
                     </div>
@@ -34,20 +38,25 @@
             </div>
         </div>
         <div class="hp_w-lg hp_mx-auto">
-            <section>
+            <section class="hp_mt-80">
                 <div>
-                    <h2>About</h2>
+                    <h2 class="heading hp_text-center">
+                        <span>About</span>                            
+                    </h2>
                 </div>
-                <div>
-                    <div>
-                        <img src="" alt="">
+                <div class="about-inner hp_flex hp_justify-center">
+                    <div class="hp_flex-centering">
+                        <div class="about-img-wrapper hp_flex-centering ">
+                            <img src="src/img/about.jpg" alt="">
                     </div>
-                    <div>
+
+                    </div>
+                    <div class="hp_ml-30">
                         <div>
                             <h3>KAKERU MIYAICHI</h3>
                         </div>
                         <div>
-                            <p>テキストテキストテキストテキストテキストテキストテキスト<br>
+                            <p class="hp_line-height-paragraph">テキストテキストテキストテキストテキストテキストテキスト<br>
                                 テキストテキストテキストテキストテキストテキストテキスト<br>
                                 テキストテキストテキストテキストテキストテキストテキスト<br>
                             </p>
@@ -55,11 +64,13 @@
                     </div>
                 </div>
             </section>
-            <section>
+            <section class="hp_mt-96">
                 <div>
-                    <h2>Bicycle</h2>
+                    <h2 class="heading hp_text-center">
+                        <span>Bicycle</span>
+                    </h2>
                 </div>
-                <div>
+                <div class="hp_flex">
                     <div>
                         <div>
                             <img src="" alt="">
@@ -91,7 +102,9 @@
             </section>
         </div>
         <div>
-            <footer><p>© 2020 Profile</p></footer>
+            <footer>
+                <p>© 2020 Profile</p>
+            </footer>
         </div>
     </div>
 </body>
